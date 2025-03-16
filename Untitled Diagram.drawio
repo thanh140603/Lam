@@ -1,9 +1,141 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="Page-1" id="ULQ4avX0e6pNEa3D8AuJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1508" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-1" value="&#xa;  &#xa;    &#xa;    &#xa;&#xa;    &#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;      &#xa;    &#xa;&#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="30" height="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-2" value="Presentation Layer" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="830" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-3" value="User Interface" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-2">
+          <mxGeometry x="10" y="30" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-4" value="Home Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-3">
+          <mxGeometry x="10" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-5" value="Log In" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-3">
+          <mxGeometry x="10" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-19" value="Search Room Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-3">
+          <mxGeometry x="120" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-21" value="Direction Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-3">
+          <mxGeometry x="120" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-30" value="Booking Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-3">
+          <mxGeometry x="250" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-22" value="Report Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-3">
+          <mxGeometry x="250" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-31" value="Security Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-3">
+          <mxGeometry x="390" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-8" value="Business Layer" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="830" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-9" value="Room Management Service" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-8">
+          <mxGeometry x="10" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-10" value="Manage Room Schedule" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-9">
+          <mxGeometry x="30" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-51" value="Update Booking" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-9">
+          <mxGeometry x="30" y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-11" value="Automation Controller" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-8">
+          <mxGeometry x="220" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-12" value="Control Lights, Doors, Devices" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-11">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-52" value="Security &amp; Access Control" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-8">
+          <mxGeometry x="430" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-53" value="Monitor Security" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-52">
+          <mxGeometry x="10" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-56" value="Allow Manual Override" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-52">
+          <mxGeometry x="10" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-54" value="Reporting &amp; Analytics" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-8">
+          <mxGeometry x="640" y="30" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-55" value="Generate Reports" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-54">
+          <mxGeometry x="10" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-57" value="Send Manual Email" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-54">
+          <mxGeometry x="10" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-16" value="Database Layer" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="10" y="620" width="830" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-80" value="User Database" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-16">
+          <mxGeometry x="10" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-81" value="Room Schedule Database" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-16">
+          <mxGeometry x="230" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-82" value="Security Logs Database" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-16">
+          <mxGeometry x="460" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-83" value="Energy Usage Database" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-16">
+          <mxGeometry x="660" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-32" value="Admin Interface" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="550" y="40" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-48" value="Log In" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-32">
+          <mxGeometry x="20" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-49" value="Home Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-32">
+          <mxGeometry x="20" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-50" value="Dashboard Page" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-32">
+          <mxGeometry x="140" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-61" value="Integration Layer " style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="10" y="410" width="830" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-70" value="ROMS API" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-61">
+          <mxGeometry x="10" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-71" value="Get Room Schedule" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-70">
+          <mxGeometry x="30" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-72" value="Update Booking" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-70">
+          <mxGeometry x="30" y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-73" value="AI Human Detection API" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-61">
+          <mxGeometry x="290" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-74" value="Detect People via Cameras" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-73">
+          <mxGeometry x="30" y="50" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-76" value="IoT API" style="swimlane" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-61">
+          <mxGeometry x="570" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-79" value="Control Smart Devices" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-76">
+          <mxGeometry x="30" y="50" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-85" value="Device Layer" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="10" y="790" width="830" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-86" value="Motion Sensors" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-85">
+          <mxGeometry x="10" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-87" value="CCTV Cameras" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-85">
+          <mxGeometry x="230" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-88" value="Smart Doors" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-85">
+          <mxGeometry x="460" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odFJZ2J9_0r8gRIK12cC-89" value="Automated Lights &amp; Fans" vertex="1" parent="odFJZ2J9_0r8gRIK12cC-85">
+          <mxGeometry x="660" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
